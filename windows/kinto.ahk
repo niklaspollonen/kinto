@@ -283,8 +283,8 @@ GroupAdd, intellij, ahk_exe idea64.exe
     ; RAlt::return                                             ; Chromebook
 
     ; Disable Win-Up/Down - interferes with Sublime text 3 multi-cursors
-    #Down::return
-    #Up::return
+    ; Down::return
+    ; Up::return
 
     ; temporary hack to ensure keys don't get stuck
     ; impacts Alt-Tab fix
@@ -543,8 +543,8 @@ GroupAdd, intellij, ahk_exe idea64.exe
         ^+]::send ^{PgDn}
         ^!Left::send ^{PgUp}
         ^!Right::send ^{PgDn}
-        #Left::send ^{PgUp}
-        #Right::send ^{PgDn}
+        ;#Left::send ^{PgUp}
+        ;#Right::send ^{PgDn}
         ^q::send {Alt Down}f{Alt Up}x   ; exit all windows
         ; Dev Tools
         !^i::send {Ctrl Down}{Shift Down}i{Shift Up}{Ctrl Up}
