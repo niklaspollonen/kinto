@@ -272,7 +272,7 @@ GroupAdd, intellij, ahk_exe idea64.exe
     ; $LCtrl::LWin   ; WinModifiers
 
     ; $LWin::LCtrl   ; MacModifiers
-    ; $RWin::RCtrl   ; MacModifiers
+    ; $RWin::RAlt    ; MacModifiers
     ; $LCtrl::LWin   ; MacModifiers
 
     ; Hack to disable start menu on winkey
